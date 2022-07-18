@@ -24,6 +24,10 @@ public extension Font {
         return Roboto.of(type)
     }
     
+    static func openSans(_ type: FontKit.FontType) -> Font {
+        return OpenSans.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
     }
@@ -34,6 +38,10 @@ public extension Font {
     
     private static var Roboto: CustomFont {
         return CustomFont(.roboto)
+    }
+    
+    private static var OpenSans: CustomFont {
+        return CustomFont(.openSans)
     }
 }
 #endif
