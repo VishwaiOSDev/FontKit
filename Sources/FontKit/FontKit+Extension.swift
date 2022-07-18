@@ -20,4 +20,3 @@ public struct CustomFont: CustomFontProtocol {
         return .custom(name, size: type.size)
     }
 }
-

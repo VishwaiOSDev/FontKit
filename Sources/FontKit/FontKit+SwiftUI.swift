@@ -16,8 +16,24 @@ public extension Font {
         return Inter.of(type)
     }
     
+    static func lato(_ type: FontKit.FontType) -> Font {
+        return Lato.of(type)
+    }
+    
+    static func roboto(_ type: FontKit.FontType) -> Font {
+        return Roboto.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
+    }
+    
+    private static var Lato: CustomFont {
+        return CustomFont(.lato)
+    }
+    
+    private static var Roboto: CustomFont {
+        return CustomFont(.roboto)
     }
 }
 #endif
