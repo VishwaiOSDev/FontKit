@@ -28,6 +28,10 @@ public extension Font {
         return OpenSans.of(type)
     }
     
+    static func poppins(_ type: FontKit.FontType) -> Font {
+        return Poppins.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
     }
@@ -42,6 +46,10 @@ public extension Font {
     
     private static var OpenSans: CustomFont {
         return CustomFont(.openSans)
+    }
+    
+    private static var Poppins: CustomFont {
+        return CustomFont(.poppins)
     }
 }
 #endif
