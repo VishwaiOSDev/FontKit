@@ -11,6 +11,7 @@ let package = Package(
         .library(name: "FontInter", targets: ["FontInter"]),
         .library(name: "FontLato", targets: ["FontLato"]),
         .library(name: "FontRoboto", targets: ["FontRoboto"]),
+        .library(name: "FontOpenSans", targets: ["FontOpenSans"]),
     ],
     dependencies: [],
     targets: [
@@ -18,6 +19,7 @@ let package = Package(
         .target(name: "FontInter", dependencies: ["FontKit"], path: "Sources/FontInter", resources: [.process("Fonts")]),
         .target(name: "FontLato", dependencies: ["FontKit"], path: "Sources/FontLato", resources: [.process("Fonts")]),
         .target(name: "FontRoboto", dependencies: ["FontKit"], path: "Sources/FontRoboto", resources: [.process("Fonts")]),
+        .target(name: "FontOpenSans", dependencies: ["FontKit"], path: "Sources/FontOpenSans", resources: [.process("Fonts")]),
         .testTarget(name: "FontKitTests", dependencies: ["FontKit"]),
     ]
 )
