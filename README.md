@@ -12,7 +12,7 @@ A new way to use custom fonts in your iOS application.
 ## 📦 Installation
 
 ### Swift Package Manager
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift`compiler.
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
 
 Add this Swift package in Xcode using its Github repository url. (File > Swift Packages > Add Package Dependency...)
 
