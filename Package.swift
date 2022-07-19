@@ -22,6 +22,5 @@ let package = Package(
         .target(name: "FontRoboto", dependencies: ["FontKit"], path: "Sources/FontRoboto", resources: [.process("Fonts")]),
         .target(name: "FontOpenSans", dependencies: ["FontKit"], path: "Sources/FontOpenSans", resources: [.process("Fonts")]),
         .target(name: "FontPoppins", dependencies: ["FontKit"], path: "Sources/FontPoppins", resources: [.process("Fonts")]),
-        .testTarget(name: "FontKitTests", dependencies: ["FontKit"]),
     ]
 )
