@@ -1,4 +1,4 @@
-![FontKit](https://user-images.githubusercontent.com/71421776/179684793-174f1a0b-4535-4634-9b9a-2d0860377e27.png)
+![FontKit_Logo](https://user-images.githubusercontent.com/71421776/179755179-cdc9cc05-da65-48d0-8204-ada3c2bd019c.png)
 
 # FontKit
 A new way to use custom fonts in your iOS application.
