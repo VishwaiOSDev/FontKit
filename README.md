@@ -1,7 +1,5 @@
 
-![FontKit](https://user-images.githubusercontent.com/71421776/179684793-174f1a0b-4535-4634-9b9a-2d0860377e27.png)
-
-  
+![FontKit](https://user-images.githubusercontent.com/71421776/179920902-e13126a0-3ad1-483e-a2ac-318a21d45127.png)
 
 # FontKit
 
@@ -38,7 +36,7 @@ Add this URL https://github.com/VishwaiOSDev/FontKit.git and select **Add Packag
 
 After adding it select FontKit and the font that you would like to add it to your application. You can use multiple fonts.
 
-// Attach Image
+![Choose Package for FontKit](https://user-images.githubusercontent.com/71421776/179920955-67bf6bd2-fa16-4fe1-8ff5-e634cc8c1ca7.png)
 
 **Note:** FontKit should be selected 
 
