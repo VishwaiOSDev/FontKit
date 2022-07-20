@@ -82,13 +82,13 @@ Text("Hello, world!")
 **Note:** Make sure FontKit is imported when you are using this modifier.
 
 ###  Font Family and FontTypes
-| Font Name | Font Family  | 
-|--|--|
-| Inter | ```.font(.inter)``` |
-| Lato | ```.font(.lato)``` |
-| OpenSans | ```.font(.openSans)```|
-| Roboto | ```.font(.roboto)``` |
-| Poppins | ```.font(.poppins)``` |
+| Font Name | Font Family  | Register Function |
+|--|--|--|
+| Inter | ```.font(.inter)``` | ```registerInter()```
+| Lato | ```.font(.lato)``` | ```registerLato()```
+| OpenSans | ```.font(.openSans)```| ```registerOpenSans()```
+| Roboto | ```.font(.roboto)``` | ```registerRoboto()```
+| Poppins | ```.font(.poppins)``` | ```registerPoppins()```
 
 #### FontTypes
 - ```black```
