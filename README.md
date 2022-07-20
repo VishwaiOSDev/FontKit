@@ -54,6 +54,9 @@ import FontInter
 Register the fonts in the init.
 
 ```swift
+import FontKit
+import FontInter
+
 @main
 struct FontKit_TestApp: App {
     
