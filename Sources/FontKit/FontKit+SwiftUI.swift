@@ -32,6 +32,10 @@ public extension Font {
         return Poppins.of(type)
     }
     
+    static func raleway(_ type: FontKit.FontType) -> Font {
+        return Raleway.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
     }
@@ -50,6 +54,10 @@ public extension Font {
     
     private static var Poppins: CustomFont {
         return CustomFont(.poppins)
+    }
+    
+    private static var Raleway: CustomFont {
+        return CustomFont(.raleway)
     }
 }
 #endif

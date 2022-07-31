@@ -23,6 +23,7 @@ A new way to use custom fonts in your iOS, iPadOS, MacOS, WatchOS, TvOS applicat
  - Poppins
  - OpenSans
  - Roboto
+ - Raleway
   
 ## 📦 Installation
 
@@ -89,6 +90,8 @@ Text("Hello, world!")
 | OpenSans | ```.font(.openSans)```| ```registerOpenSans()```
 | Roboto | ```.font(.roboto)``` | ```registerRoboto()```
 | Poppins | ```.font(.poppins)``` | ```registerPoppins()```
+| Raleway | ```.font(.raleway)``` | ```registerRaleway()```
+
 
 #### FontTypes
 - ```black```

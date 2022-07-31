@@ -13,6 +13,7 @@ let package = Package(
         .library(name: "FontRoboto", targets: ["FontRoboto"]),
         .library(name: "FontOpenSans", targets: ["FontOpenSans"]),
         .library(name: "FontPoppins", targets: ["FontPoppins"]),
+        .library(name: "FontRaleway", targets: ["FontRaleway"])
     ],
     dependencies: [],
     targets: [
@@ -22,5 +23,6 @@ let package = Package(
         .target(name: "FontRoboto", dependencies: ["FontKit"], path: "Sources/FontRoboto", resources: [.process("Fonts")]),
         .target(name: "FontOpenSans", dependencies: ["FontKit"], path: "Sources/FontOpenSans", resources: [.process("Fonts")]),
         .target(name: "FontPoppins", dependencies: ["FontKit"], path: "Sources/FontPoppins", resources: [.process("Fonts")]),
+        .target(name: "FontRaleway", dependencies: ["FontKit"], path: "Sources/FontRaleway", resources: [.process("Fonts")])
     ]
 )
