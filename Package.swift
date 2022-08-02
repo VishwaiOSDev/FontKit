@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "FontKit",
-    platforms: [.iOS(.v13), .macOS(.v10_15)],
+    platforms: [.iOS(.v13), .macOS(.v10_15), .watchOS(.v4), .tvOS(.v13)],
     products: [
         .library(name: "FontKit", targets: ["FontKit"]),
         .library(name: "FontInter", targets: ["FontInter"]),

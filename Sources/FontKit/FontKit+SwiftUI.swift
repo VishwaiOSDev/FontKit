@@ -5,7 +5,6 @@
 //  Created by Vishweshwaran on 18/07/22.
 //
 
-
 #if canImport(SwiftUI)
 import SwiftUI
 
@@ -36,6 +35,10 @@ public extension Font {
         return Raleway.of(type)
     }
     
+    static func ubuntu(_ type: FontKit.FontType) -> Font {
+        return Ubuntu.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
     }
@@ -58,6 +61,10 @@ public extension Font {
     
     private static var Raleway: CustomFont {
         return CustomFont(.raleway)
+    }
+    
+    private static var Ubuntu: CustomFont {
+        return CustomFont(.ubuntu)
     }
 }
 #endif

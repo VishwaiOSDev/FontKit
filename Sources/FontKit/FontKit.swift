@@ -20,6 +20,7 @@ final public class FontKit {
         case openSans = "OpenSans"
         case poppins = "Poppins"
         case raleway = "Raleway"
+        case ubuntu = "Ubuntu"
     }
     
     public enum FontType: CaseIterable {
