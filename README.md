@@ -24,6 +24,7 @@ A new way to use custom fonts in your iOS, iPadOS, MacOS, WatchOS, TvOS applicat
  - OpenSans
  - Roboto
  - Raleway
+ - Ubuntu
   
 ## 📦 Installation
 
@@ -91,6 +92,7 @@ Text("Hello, world!")
 | Roboto | ```.font(.roboto)``` | ```registerRoboto()```
 | Poppins | ```.font(.poppins)``` | ```registerPoppins()```
 | Raleway | ```.font(.raleway)``` | ```registerRaleway()```
+| Ubuntu | ```.font(.ubuntu)``` | ```registerUbuntu()```
 
 
 #### FontTypes
