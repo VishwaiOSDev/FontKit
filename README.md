@@ -25,6 +25,7 @@ A new way to use custom fonts in your iOS, iPadOS, MacOS, WatchOS, TvOS applicat
  - Roboto
  - Raleway
  - Ubuntu
+ - Rubik
   
 ## 📦 Installation
 
@@ -93,6 +94,7 @@ Text("Hello, world!")
 | Poppins | ```.font(.poppins)``` | ```registerPoppins()```
 | Raleway | ```.font(.raleway)``` | ```registerRaleway()```
 | Ubuntu | ```.font(.ubuntu)``` | ```registerUbuntu()```
+| Rubik | ```.font(.rubik)``` | ```registerRubik()```
 
 
 #### FontTypes
