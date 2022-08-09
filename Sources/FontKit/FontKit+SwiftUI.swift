@@ -39,6 +39,10 @@ public extension Font {
         return Ubuntu.of(type)
     }
     
+    static func rubik(_ type: FontKit.FontType) -> Font {
+        return Rubik.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
     }
@@ -65,6 +69,10 @@ public extension Font {
     
     private static var Ubuntu: CustomFont {
         return CustomFont(.ubuntu)
+    }
+    
+    private static var Rubik: CustomFont {
+        return CustomFont(.rubik)
     }
 }
 #endif
