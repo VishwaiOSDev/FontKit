@@ -4,9 +4,7 @@
 # FontKit
 
 A new way to use custom fonts in your iOS, iPadOS, MacOS, WatchOS, TvOS applications.
-
   
-
 ## Features
 
 - [x] Easy to use
@@ -26,6 +24,7 @@ A new way to use custom fonts in your iOS, iPadOS, MacOS, WatchOS, TvOS applicat
  - Raleway
  - Ubuntu
  - Rubik
+ - Menlo
   
 ## 📦 Installation
 
@@ -95,6 +94,7 @@ Text("Hello, world!")
 | Raleway | ```.font(.raleway)``` | ```registerRaleway()```
 | Ubuntu | ```.font(.ubuntu)``` | ```registerUbuntu()```
 | Rubik | ```.font(.rubik)``` | ```registerRubik()```
+| Menlo | ```.font(.menlo)``` | ```registerMenlo()```
 
 
 #### FontTypes
