@@ -15,7 +15,8 @@ let package = Package(
         .library(name: "FontPoppins", targets: ["FontPoppins"]),
         .library(name: "FontRaleway", targets: ["FontRaleway"]),
         .library(name: "FontUbuntu", targets: ["FontUbuntu"]),
-        .library(name: "FontRubik", targets: ["FontRubik"])
+        .library(name: "FontRubik", targets: ["FontRubik"]),
+        .library(name: "FontMenlo", targets: ["FontMenlo"])
     ],
     dependencies: [],
     targets: [
@@ -27,6 +28,7 @@ let package = Package(
         .target(name: "FontPoppins", dependencies: ["FontKit"], path: "Sources/FontPoppins", resources: [.process("Fonts")]),
         .target(name: "FontRaleway", dependencies: ["FontKit"], path: "Sources/FontRaleway", resources: [.process("Fonts")]),
         .target(name: "FontUbuntu", dependencies: ["FontKit"], path: "Sources/FontUbuntu", resources: [.process("Fonts")]),
-        .target(name: "FontRubik", dependencies: ["FontKit"], path: "Sources/FontRubik", resources: [.process("Fonts")])
+        .target(name: "FontRubik", dependencies: ["FontKit"], path: "Sources/FontRubik", resources: [.process("Fonts")]),
+        .target(name: "FontMenlo", dependencies: ["FontKit"], path: "Sources/FontMenlo", resources: [.process("Fonts")])
     ]
 )

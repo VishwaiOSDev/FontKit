@@ -11,6 +11,7 @@ import CoreText
 
 final public class FontKit {
     
+    static let fontSize: CGFloat = 14
     static let fontExtension: String = "ttf"
     
     public enum FontFamily: String {
@@ -22,24 +23,25 @@ final public class FontKit {
         case raleway = "Raleway"
         case ubuntu = "Ubuntu"
         case rubik = "Rubik"
+        case menlo = "Menlo"
     }
     
     public enum FontType: CaseIterable {
         public static var allCases: [FontKit.FontType] {
             return [
-                .black(size: 14),
-                .light(size: 14),
-                .extraLight(size: 14),
-                .regular(size: 14),
-                .italic(size: 14),
-                .medium(size: 14),
-                .mediumItalic(size: 14),
-                .semibold(size: 14),
-                .bold(size: 14),
-                .extraBold(size: 14),
-                .boldItalic(size: 14),
-                .heavy(size: 14),
-                .thin(size: 14)
+                .black(size: fontSize),
+                .light(size: fontSize),
+                .extraLight(size: fontSize),
+                .regular(size: fontSize),
+                .italic(size: fontSize),
+                .medium(size: fontSize),
+                .mediumItalic(size: fontSize),
+                .semibold(size: fontSize),
+                .bold(size: fontSize),
+                .extraBold(size: fontSize),
+                .boldItalic(size: fontSize),
+                .heavy(size: fontSize),
+                .thin(size: fontSize)
             ]
         }
         

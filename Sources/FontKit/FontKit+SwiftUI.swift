@@ -5,7 +5,6 @@
 //  Created by Vishweshwaran on 18/07/22.
 //
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, *)
@@ -43,6 +42,10 @@ public extension Font {
         return Rubik.of(type)
     }
     
+    static func menlo(_ type: FontKit.FontType) -> Font {
+        return Menlo.of(type)
+    }
+    
     private static var Inter: CustomFont {
         return CustomFont(.inter)
     }
@@ -74,5 +77,8 @@ public extension Font {
     private static var Rubik: CustomFont {
         return CustomFont(.rubik)
     }
+    
+    private static var Menlo: CustomFont {
+        return CustomFont(.menlo)
+    }
 }
-#endif

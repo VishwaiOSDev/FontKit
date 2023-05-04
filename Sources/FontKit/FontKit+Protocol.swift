@@ -9,5 +9,6 @@ import SwiftUI
 
 public protocol CustomFontProtocol {
     var fontFamily: String { get }
+    
     func of(_ type: FontKit.FontType) -> Font
 }
